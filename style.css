@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+.card-container{
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #ddd;
+    transition: .4s linear;
+}
+.card-container:hover{
+    box-shadow: 0px 0px 10px #d3d3d3;
+}
+.img-container{
+    width: 299px;
+    height: 200px;
+  position: relative;
+}
+.img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.label{
+    position: absolute;
+    top: 0%;
+    background-color: rgb(181, 66, 70);
+    color: aliceblue;
+    padding:   4px 8px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-heading{
+    margin: 8px 4px;
+    font-size: 20px;
+    font-weight: 900px;
+    color: rgb(161, 57, 57);
+}
+.then{
+    font-size: 14px;
+    color: rgb(18, 177, 177);
+    
+}
+.card-desc{
+    margin: 8px 4px;
+}
+.card-price{
+    margin: 6px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(219, 56, 56);
+}
+.card-rating{
+    display: inline;
+    color: rgb(229, 202, 30);
+   margin-left: 150px;
+
+}
+.card-btn{
+    text-align: center;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    margin: 10px 0px;
+    border: none;
+    background-color: rgb(122, 42, 49);
+    color: aliceblue;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 5px;
+}
